@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_mijnes">
+
+    <fragment
+        android:id="@+id/navigation_mijnes"
+        android:name="com.example.parceltrackbv.ui.mijnes.MijnesFragment"
+        android:label="@string/title_mijnes"
+        tools:layout="@layout/fragment_mijnes" />
+
+    <fragment
+        android:id="@+id/navigation_ontvangen"
+        android:name="com.example.parceltrackbv.ui.ontvangen.OntvangenFragment"
+        android:label="@string/title_ontvangen"
+        tools:layout="@layout/fragment_ontvangen" />
+
+    <fragment
+        android:id="@+id/navigation_profiel"
+        android:name="com.example.parceltrackbv.ui.profiel.ProfielFragment"
+        android:label="@string/title_profiel"
+        tools:layout="@layout/fragment_profiel" />
+</navigation>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Parcel Track B.V</string>
+    <string name="title_mijnes">Mijnes</string>
+    <string name="title_ontvangen">Ontvangen</string>
+    <string name="title_profiel">Profiel</string>
+</resources>
